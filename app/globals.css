@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+
+:root{
+  --color-primary-base: #2A9D8F ;
+  --color-primary-50: #B4FFF2 ;
+  --color-primary-100: #8CF5E4 ;
+  --color-primary-200: #6FD8C8 ;
+  --color-primary-300: #51BCAD ;
+  --color-primary-400: #30A193 ;
+  --color-primary-500: #008679 ;
+  --color-primary-600: #006A60 ;
+  --color-primary-700: #005048 ;
+  --color-primary-800: #003731 ;
+  --color-primary-900: #00201C ;
+}
+
+body{
+  font-family: var(--font-league-spartan);
+}
+
+
+
 @utility container {
   margin-inline: auto;
   padding-inline: 1rem;
