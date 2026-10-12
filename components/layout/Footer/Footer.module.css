@@ -1,0 +1,12 @@
+/* --------------------------------- use to make jsx file cleaner to red with less Tailwind classes  --------------------------------- */
+@reference "../../../app/globals.css";
+
+
+/* columns style */
+.footerLink {
+  @apply inline-block py-1 text-slate-500 hover:text-slate-700;
+}
+
+.socialLink {
+  @apply flex size-7 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-400;
+}
