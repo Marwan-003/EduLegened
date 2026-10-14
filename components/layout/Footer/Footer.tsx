@@ -5,7 +5,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className="border-t border-slate-200 py-8">
+    <footer className="border-t border-slate-200 py-8 bg-slate-50">
       <div className="container">
         <div className="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col gap-4">
