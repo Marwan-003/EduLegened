@@ -1,3 +1,5 @@
+
+import CoursesSection from "@/components/features/CoursesSection/CoursesSection";
 import Footer from "@/components/layout/Footer/Footer";
 import Navbar from "@/components/layout/Navbar/Navbar";
 import Button from "@/components/ui/Button";
@@ -5,6 +7,7 @@ import Label from "@/components/ui/Label";
 import { ArrowRight, CircleCheckBig, Infinity, MonitorPlay, Play, Star, UserGroup, Users, UserStar, Verified } from "lucide-react";
 
 export default function Home() {
+  
   return (
     <div>
       <Navbar />
@@ -94,6 +97,7 @@ export default function Home() {
           </div>
         </section>
         {/* --------------------------- Stats section --------------------------- */}
+        
         <section
           aria-labelledby="stats-heading"
           className="bg-slate-50 py-14 border-y border-slate-200"
@@ -137,8 +141,10 @@ export default function Home() {
             </li>
           </ul>
         </section>
+        {/* --------------------------- Courses section --------------------------- */}
+          <CoursesSection />
         {/* gonna add more sections here  */}
-       
+      
       </main>
       <Footer />
     </div>
