@@ -9,8 +9,8 @@ const links = [
   { label: "Home", href: "#home" },
   { label: "Courses", href: "#courses" },
   { label: "Career Paths", href: "#career-paths" },
-  { label: "Mentors", href: "#mentors" },
-  { label: "About", href: "#about" },
+  { label: "Community", href: "#community" },
+  { label: "Contact us", href: "#contact-us" },
 ];
 
 function Navbar() {
