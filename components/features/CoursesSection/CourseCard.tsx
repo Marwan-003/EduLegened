@@ -29,7 +29,7 @@ function CourseCard({ course }: { course: Course }) {
 
       <div className="p-6 flex-1 flex flex-col">
         <div className="flex items-center gap-4 justify-between mb-2">
-          <Label rounded>{course.category}</Label>
+          <Label rounded className="text-sm">{course.category}</Label>
           <span className="flex items-center gap-2">
             <Star aria-hidden="true" fill="orange" size={18} strokeWidth={0} />
             <span className="font-semibold">4.9</span>
